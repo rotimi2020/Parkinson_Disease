@@ -2,7 +2,35 @@
 
 
 # [Dataset]()
-   *This radar data was collected by a system in Goose Bay, Labrador. This system consists of a phased array of 16 high-frequency antennas with a total transmitted power on the order of 6.4 kilowatts. See the paper for more details. The targets were free electrons in the ionosphere. **"Good"** radar returns are those showing evidence of some type of structure in the ionosphere. **"Bad"** returns are those that do not; their signals pass through the ionosphere.*
+   *The dataset was created by Max Little of the University of Oxford, in 
+collaboration with the National Centre for Voice and Speech, Denver, 
+Colorado, who recorded the speech signals. The original study published the 
+feature extraction methods for general voice disorders.*
+
+  *Data Set Information:*
+
+*This dataset is composed of a range of biomedical voice measurements from 
+31 people, 23 with Parkinson's disease (PD). Each column in the table is a 
+particular voice measure, and each row corresponds one of 195 voice 
+recording from these individuals ("name" column). The main aim of the data 
+is to discriminate healthy people from those with PD, according to "status" 
+column which is set to 0 for healthy and 1 for PD.*
+
+*The data is in ASCII CSV format. The rows of the CSV file contain an 
+instance corresponding to one voice recording. There are around six 
+recordings per patient, the name of the patient is identified in the first 
+column.For further information or to pass on comments, please contact Max 
+Little (littlem '@' robots.ox.ac.uk).*
+
+*Further details are contained in the following reference -- if you use this 
+dataset, please cite:
+Max A. Little, Patrick E. McSharry, Eric J. Hunter, Lorraine O. Ramig (2008), 
+'Suitability of dysphonia measurements for telemonitoring of Parkinson's disease', 
+IEEE Transactions on Biomedical Engineering (to appear).*
+*The data & attributes information for this project is available at<br> https://archive.ics.uci.edu/ml/machine-learning-databases/parkinsons/*
+
+
+
 
 ### [Attributes information:]()
    * *Matrix column entries (attributes):*
@@ -18,7 +46,7 @@
    * *RPDE,D2 - Two nonlinear dynamical complexity measures*
    * *DFA - Signal fractal scaling exponent*
    * *spread1,spread2,PPE - Three nonlinear measures of fundamental frequency variation* 
-   * 
+   
 
 ### [Experiment Results:]()
 * **Data Analysis**
