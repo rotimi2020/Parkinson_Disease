@@ -5,14 +5,20 @@
    *This radar data was collected by a system in Goose Bay, Labrador. This system consists of a phased array of 16 high-frequency antennas with a total transmitted power on the order of 6.4 kilowatts. See the paper for more details. The targets were free electrons in the ionosphere. **"Good"** radar returns are those showing evidence of some type of structure in the ionosphere. **"Bad"** returns are those that do not; their signals pass through the ionosphere.*
 
 ### [Attributes information:]()
-
-   * *Number of Instances: 351.*
-   * *Number of Attributes: 34 plus the class attribute.*
-   * *All 34 predictor attributes are continuous.* 
-   * *The 35th attribute is either "good" or "bad".*
-   * *This is a binary classification task.*
-   * *Missing Values: None.*
-
+   * *Matrix column entries (attributes):*
+   * *name - ASCII subject name and recording number*
+   * *MDVP:Fo(Hz) - Average vocal fundamental frequency*
+   * *MDVP:Fhi(Hz) - Maximum vocal fundamental frequency*
+   * *MDVP:Flo(Hz) - Minimum vocal fundamental frequency*
+   * *MDVP:Jitter(%),MDVP:Jitter(Abs),MDVP:RAP,MDVP:PPQ,Jitter:DDP - Several *
+   * *measures of variation in fundamental frequency*
+   * *MDVP:Shimmer,MDVP:Shimmer(dB),Shimmer:APQ3,Shimmer:APQ5,MDVP:APQ,Shimmer:DDA - Several measures of variation in amplitude*
+   * *NHR,HNR - Two measures of ratio of noise to tonal components in the voice*
+   * *status - Health status of the subject (one) - Parkinson's, (zero) - healthy*
+   * *RPDE,D2 - Two nonlinear dynamical complexity measures*
+   * *DFA - Signal fractal scaling exponent*
+   * *spread1,spread2,PPE - Three nonlinear measures of fundamental frequency variation* 
+   * 
 
 ### [Experiment Results:]()
 * **Data Analysis**
