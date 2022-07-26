@@ -54,24 +54,24 @@ Little (littlem '@' robots.ox.ac.uk).*
     * *Model : Light Gradient Boosting Classifier*
     * *Best: 0.954259 using {'boosting_type': 'gbdt', 'n_estimators': 500}*
  * **Performance Results**
-    * *Training Score: 100%*
-    * *Validation Score: 96%*
-    * *accuracy score: 96%*
-    * *roc auc score: 92%*
-    * *f1 score: 92%*
-    * *precision score 100%*
-    * *recall score 86%*
+    * *Training Score: 100 %*
+    * *Validation Score: 96 %*
+    * *accuracy score: 96 %*
+    * *roc auc score: 92 %*
+    * *f1 score: 92 %*
+    * *precision score 100 %*
+    * *recall score 86 %*
 
  classification_report :
 
               precision    recall  f1-score   support
 
-         0.0       0.98      1.00      0.99        45
-         1.0       1.00      0.96      0.98        25
+           0       0.95      1.00      0.98        41
+           1       1.00      0.86      0.92        14
 
-                                       0.99        70
-                   0.99      0.98      0.98        70
-                   0.99      0.99      0.99        70
+                                       0.96        55
+                   0.98      0.93      0.95        55
+                   0.97      0.96      0.96        55
 
 
 
