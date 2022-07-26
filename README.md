@@ -21,12 +21,6 @@ instance corresponding to one voice recording. There are around six
 recordings per patient, the name of the patient is identified in the first 
 column.For further information or to pass on comments, please contact Max 
 Little (littlem '@' robots.ox.ac.uk).*
-
-*Further details are contained in the following reference -- if you use this 
-dataset, please cite:
-Max A. Little, Patrick E. McSharry, Eric J. Hunter, Lorraine O. Ramig (2008), 
-'Suitability of dysphonia measurements for telemonitoring of Parkinson's disease', 
-IEEE Transactions on Biomedical Engineering (to appear).*
 *The data & attributes information for this project is available at<br> https://archive.ics.uci.edu/ml/machine-learning-databases/parkinsons/*
 
 
