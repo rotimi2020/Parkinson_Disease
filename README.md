@@ -46,21 +46,21 @@ Little (littlem '@' robots.ox.ac.uk).*
 * **Data Analysis**
     * *All columns contain outliers except for N.*
  * **Performance Evaluation**
-    * *Splitting the dataset by 80 % for training set and 20 % validation set.*
+    * *Splitting the dataset by 80 % for training set and 30 % validation set.*
  * **Training and Validation**
-    * *GausianNB gets a higher accuracy score than other classification models.*
-    * *GaussianNB ( 99 % accuracy score )*
+    * *Light Gradient Boosting Classifier gets a higher accuracy score than other classification models.*
+    * *Light Gradient Boosting Classifier ( 99 % accuracy score )*
  * **Fine Tuning**
-    * *Model : Extreme GradientBoosting Classifier*
-    * *Best: 0.932143 using {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 75*
+    * *Model : Light Gradient Boosting Classifier*
+    * *Best: 0.954259 using {'boosting_type': 'gbdt', 'n_estimators': 500}*
  * **Performance Results**
-    * *Training Score: 99.64%*
-    * *Validation Score: 98.57%*
-    * *accuracy score: 0.9857*
-    * *roc auc score: 0.98*
-    * *f1 score: 0.9795*
-    * *precision score 1.0*
-    * *recall score 0.96*
+    * *Training Score: 100%*
+    * *Validation Score: 96%*
+    * *accuracy score: 96%*
+    * *roc auc score: 92%*
+    * *f1 score: 92%*
+    * *precision score 100%*
+    * *recall score 86%*
 
  classification_report :
 
