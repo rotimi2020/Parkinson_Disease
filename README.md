@@ -56,11 +56,11 @@ Little (littlem '@' robots.ox.ac.uk).*
  * **Performance Results**
     * *Training Score: 100 %*
     * *Validation Score: 96 %*
-    * *accuracy score: 96 %*
-    * *roc auc score: 92 %*
-    * *f1 score: 92 %*
-    * *precision score 100 %*
-    * *recall score 86 %*
+    * *Accuracy score: 96 %*
+    * *Roc auc score: 92 %*
+    * *F1 score: 92 %*
+    * *Precision score 100 %*
+    * *Recall score 86 %*
 
  classification_report :
 
